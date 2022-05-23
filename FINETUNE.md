@@ -1,4 +1,4 @@
-## Pre-training UM-MAE
+## Fine-tuning UM-MAE
 
 A typical command To fine-tune Swin-T (recommended default) with **single-node distributed training**, run the following on 1 node with 8 GPUs each:
 ```
@@ -27,4 +27,4 @@ Please modify your data_path /path/to/ImageNet/ and possibly the dataloader.
 | Swin-T  | SimMIM       | RS | --  | 100% | 100 | ```make finetune_simmim_swin_tiny_256_200e_100e```| 
 | Swin-T  | UM-MAE (ours)| UM | 25% | 25%  | 100 | ```make finetune_mae_swin_tiny_256_mask_vmr025_200e_100e```| 
 | Swin-L  | SimMIM       | RS | --  | 100% | 100 | see [official](https://github.com/microsoft/SimMIM) | 
-| Swin-L  | UM-MAE (ours)| UM | 25% | 25%  | 100 | ```make finetune_simmim_pvt_small_256_200e_100e```| 
+| Swin-L  | UM-MAE (ours)| UM | 25% | 25%  | 100 | ```make finetune_mae_swin_large_256_mask_vmr025_200e_100e```| 
