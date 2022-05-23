@@ -1,6 +1,3 @@
-# UM-MAE
-Official Codes for "Uniform Masking: Enabling MAE Pre-training for Pyramid-based Vision Transformers with Locality"
-
 <div align="center">
 <h1>UM-MAE</h1>
 <h3>Uniform Masking: Enabling MAE Pre-training for Pyramid-based Vision Transformers with Locality</h3>
