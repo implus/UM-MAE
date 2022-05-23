@@ -26,15 +26,15 @@
 ```
 
 ## Motivation
-(a) In MAE, the **global** window of Vanilla ViT can receive arbitrary subset of image patches by skipping random $75\%$ of the total, whilst (b) skipping these $75\%$ patches is unacceptable for Pyramid-based ViT as patch elements are not equivalent across the **local** windows. (c) A straightforward solution is to adopt the mask token for the encoder (e.g., SimMIM) at the cost of slower training. (d) Our Uniform Masking (UM) approach (including Uniform Sampling and Secondary Masking) enables the efficient MAE-style pre-training for Pyramid-based ViTs while keeping its competitive fine-tuning accuracy.
+(a) In MAE, the **global** window of Vanilla ViT can receive arbitrary subset of image patches by skipping random 75% of the total, whilst (b) skipping these 75% patches is unacceptable for Pyramid-based ViT as patch elements are not equivalent across the **local** windows. (c) A straightforward solution is to adopt the mask token for the encoder (e.g., SimMIM) at the cost of slower training. (d) Our Uniform Masking (UM) approach (including Uniform Sampling and Secondary Masking) enables the efficient MAE-style pre-training for Pyramid-based ViTs while keeping its competitive fine-tuning accuracy.
 <p align="center">
-  <img src="https://github.com/implus/UM-MAE/blob/main/figs/pipeline_cropped.png" width="480">
+  <img src="https://github.com/implus/UM-MAE/blob/main/figs/pipeline_cropped.png" width="640">
 </p>
 
 ## Introduction
 UM-MAE is an efficient and general technique that supports MAE-style MIM Pre-training for popular Pyramid-based Vision Transformers (e.g., PVT, Swin).
 * We propose Uniform Masking, which successfully enables MAE pre-training (i.e., UM-MAE) for popular Pyramid-based ViTs.  
-* We empirically show that UM-MAE considerably speeds up pre-training efficiency by $$\sim2\times$$ and reduces the GPU memory consumption by at least $$\sim2\times$$ compared to the existing sota Masked Image Modelling (MIM) framework (i.e, SimMIM) for Pyramid-based ViTs, whilst maintaining the competitive fine-tuning performance. Notably, using HTC++ detector, the pre-trained Swin-Large backbone self-supervised under UM-MAE only in ImageNet-1K (57.4 AP$$^bbox$$, 49.8 AP$$^mask$$) can even outperform the one supervised in ImageNet-22K (57.1 AP$$^bbox$$, 49.5 AP$$^mask$$).
+* We empirically show that UM-MAE considerably speeds up pre-training efficiency by ~2X and reduces the GPU memory consumption by at least ~2X compared to the existing sota Masked Image Modelling (MIM) framework (i.e, SimMIM) for Pyramid-based ViTs, whilst maintaining the competitive fine-tuning performance. Notably, using HTC++ detector, the pre-trained Swin-Large backbone self-supervised under UM-MAE only in ImageNet-1K (57.4 AP^bbox, 49.8 AP^mask) can even outperform the one supervised in ImageNet-22K (57.1 AP^bbox, 49.5 AP^mask).
 * We also reveal and discuss several notable different behaviors between Vanilla ViT and Pyramid-based ViTs under MIM.
 ![tenser](figs/detail_pipeline_cropped.png)
 
