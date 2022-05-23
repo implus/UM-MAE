@@ -12,9 +12,10 @@
 
 * This repo is the official implementation of [Uniform Masking: Enabling MAE Pre-training for Pyramid-based Vision Transformers with Locality](https://arxiv.org/pdf/2205.10063.pdf). It includes codes and models for the following tasks:
 > **ImageNet Pretrain**: See [PRETRAIN.md](PRETRAIN.md).\
-> **ImageNet Finetune**: TODO. See [FINETUNE.md](FINETUNE.md).\
+> **ImageNet Finetune**: See [FINETUNE.md](FINETUNE.md).\
 > **Object Detection**: TODO. See [DETECTION.md](DET/DETECTION.md).\
-> **Semantic Segmentation**: TODO. See [SEGMENTATION.md](SEG/SEGMENTATION.md).
+> **Semantic Segmentation**: TODO. See [SEGMENTATION.md](SEG/SEGMENTATION.md). \
+> **Visualization**: TODO.
 
 ```
 @article{Li2022ummae,

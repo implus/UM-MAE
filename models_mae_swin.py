@@ -580,5 +580,6 @@ def mae_swin_large_256_dec512d8b64pmd(**kwargs):
 
 # set recommended archs
 mae_swin_tiny_256 = mae_swin_tiny_256_dec512d2b # decoder: 512 dim, 2 blocks
+mae_swin_large_256 = mae_swin_large_256_dec512d8b64pmd
 
 

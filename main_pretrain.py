@@ -37,8 +37,8 @@ from mask_transform import MaskTransform
 import models_mae
 import models_mae_pvt
 import models_mae_swin
-#import models_simmim_pvt
-#import models_simmim_swin
+import models_simmim_pvt
+import models_simmim_swin
 
 
 def get_args_parser():

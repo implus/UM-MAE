@@ -126,3 +126,11 @@ def swin_tiny_256(**kwargs):
     )
     return model
 
+def swin_large_256(**kwargs):
+    model = Swin(img_size=256, patch_size=4, in_chans=3, 
+                 embed_dim=192, depths=[2, 2, 18, 2], num_heads=[6, 12, 24, 48],
+                 posmlp_dim=64, mlp_ratio=4, window_size=8, # 16 for finetune
+                 norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs
+    )
+    return model
+

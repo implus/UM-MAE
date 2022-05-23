@@ -32,7 +32,7 @@ from util.datasets import build_dataset
 from util.pos_embed import interpolate_pos_embed
 from util.misc import NativeScalerWithGradNormCount as NativeScaler
 
-import models_pvt, models_swin
+import models_pvt, models_swin, models_vit
 
 from engine_finetune import train_one_epoch, evaluate
 
