@@ -26,6 +26,10 @@
 }
 ```
 
+## Updates
+
+***23/May/2022:***  The preprint version is public at [arxiv](https://arxiv.org/pdf/2205.10063.pdf).
+
 ## Motivation
 (a) In MAE, the **global** window of Vanilla ViT can receive arbitrary subset of image patches by skipping random 75% of the total, whilst (b) skipping these 75% patches is unacceptable for Pyramid-based ViT as patch elements are not equivalent across the **local** windows. (c) A straightforward solution is to adopt the mask token for the encoder (e.g., SimMIM) at the cost of slower training. (d) Our Uniform Masking (UM) approach (including Uniform Sampling and Secondary Masking) enables the efficient MAE-style pre-training for Pyramid-based ViTs while keeping its competitive fine-tuning accuracy.
 <p align="center">
