@@ -53,7 +53,7 @@ UM-MAE is an efficient and general technique that supports MAE-style MIM Pre-tra
 | Swin-T  | SimMIM       | RS | --  | 100% | 200 | 49.3 | 82.20 | [weight](https://drive.google.com/file/d/1NbgNGmZDxwgRcO9OKhBSJwGBj9-3A5eL/view?usp=sharing)/[log](https://drive.google.com/file/d/1DU8_vUYUfPogbXu6JuJO_nKN97VnwiSr/view?usp=sharing) |
 | Swin-T  | UM-MAE       | UM | 25% | 25%  | 200 | 25.0 | 82.04 | [weight](https://drive.google.com/file/d/1VPUSNljE3orSl-d6vMBo5jtvYeEipZu2/view?usp=sharing)/[log](https://drive.google.com/file/d/1bvdeAq2UKhW2zEcdgOyMkiayR-N6ntgU/view?usp=sharing) |
 | Swin-L  | SimMIM       | RS | --  | 100% | 800 | --   | 85.4  | [link](https://github.com/microsoft/SimMIM) |
-| Swin-L  | UM-MAE       | UM | 25% | 25%  | 800 | todo | 85.3  | weight |
+| Swin-L  | UM-MAE       | UM | 25% | 25%  | 800 | todo | 85.3  | weight/log |
 
 RS: Random Sampling; UM: Uniform Masking, consisting of **Uniform** Sampling and Secondary **Masking**
 

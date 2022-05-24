@@ -21,6 +21,7 @@ python -m torch.distributed.launch --nproc_per_node=8 main_pretrain.py \
     --output_dir ./work_dirs/pretrain_mae_swin_tiny_256_mask_vmr025_200e 
 ```
 Please modify your data_path /path/to/ImageNet/ and possibly the dataloader.
+You can also move the txt files **IN1K/train.txt** and **IN1K/val.txt** to your imagenet root path.
 
 ## More detailed training script follows:
 | Models  | Pre-train Method| Sampling Strategy | Secondary Mask Ratio | Encoder Ratio | Pretrain Epochs | Pretrain Command |
