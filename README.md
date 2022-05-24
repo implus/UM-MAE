@@ -40,14 +40,14 @@ UM-MAE is an efficient and general technique that supports MAE-style MIM Pre-tra
 ![tenser](figs/detail_pipeline_cropped.png)
 
 ## Main Results on ImageNet-1K
-| Models  | Pre-train Method| Sampling Strategy | Secondary Mask Ratio | Encoder Ratio | Pretrain Epochs | Pretrain Hours | FT acc@1(%) | FT weights |
+| Models  | Pre-train Method| Sampling Strategy | Secondary Mask Ratio | Encoder Ratio | Pretrain Epochs | Pretrain Hours | FT acc@1(%) | FT weight/log |
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ViT-B   | MAE          | RS | --  | 25%  | 200 | todo | 82.88 | weight |
-| ViT-B   | UM-MAE       | UM | 25% | 25%  | 200 | todo | 82.88 | weight |
-| PVT-S   | SimMIM       | RS | --  | 100% | 200 | 38.0 | 79.28 | weight |
-| PVT-S   | UM-MAE       | UM | 25% | 25%  | 200 | 21.3 | 79.31 | weight |
-| Swin-T  | SimMIM       | RS | --  | 100% | 200 | 49.3 | 82.20 | weight |
-| Swin-T  | UM-MAE       | UM | 25% | 25%  | 200 | 25.0 | 82.04 | weight |
+| ViT-B   | MAE          | RS | --  | 25%  | 200 | todo | 82.88 | [weight](https://drive.google.com/file/d/1wsqOzSTK27TP5b6FM5fEXLYNRc88IXy2/view?usp=sharing)/[log](https://drive.google.com/file/d/1UtFmWLtIA7AaE3pVdksCcafVrtkTz5m5/view?usp=sharing) |
+| ViT-B   | UM-MAE       | UM | 25% | 25%  | 200 | todo | 82.88 | [weight](https://drive.google.com/file/d/1cCONx1o2e73GjW506KTPv0yfRtFSWJvs/view?usp=sharing)/[log](https://drive.google.com/file/d/1CIHRwAlWpvlDI8wM3rtSVRJC8NsQ9zw5/view?usp=sharing)  |
+| PVT-S   | SimMIM       | RS | --  | 100% | 200 | 38.0 | 79.28 | [weight](https://drive.google.com/file/d/1ZJf98EVNlX3UIBD_Ss5hwzhGmBi8LYM1/view?usp=sharing)/[log](https://drive.google.com/file/d/1oqOrJBNpkPtR57dJIXM5dPi22CpVhN9C/view?usp=sharing) |
+| PVT-S   | UM-MAE       | UM | 25% | 25%  | 200 | 21.3 | 79.31 | [weight](https://drive.google.com/file/d/1wKBsh-G9knebYgcv4Lv5UnQQkCrnqkpH/view?usp=sharing)/[log](https://drive.google.com/file/d/1dAsF97o35v4pWkRiiTJroapEZy8loQ09/view?usp=sharing) |
+| Swin-T  | SimMIM       | RS | --  | 100% | 200 | 49.3 | 82.20 | [weight](https://drive.google.com/file/d/1NbgNGmZDxwgRcO9OKhBSJwGBj9-3A5eL/view?usp=sharing)/[log](https://drive.google.com/file/d/1DU8_vUYUfPogbXu6JuJO_nKN97VnwiSr/view?usp=sharing) |
+| Swin-T  | UM-MAE       | UM | 25% | 25%  | 200 | 25.0 | 82.04 | [weight](https://drive.google.com/file/d/1VPUSNljE3orSl-d6vMBo5jtvYeEipZu2/view?usp=sharing)/[log](https://drive.google.com/file/d/1bvdeAq2UKhW2zEcdgOyMkiayR-N6ntgU/view?usp=sharing) |
 | Swin-L  | SimMIM       | RS | --  | 100% | 800 | --   | 85.4  | [link](https://github.com/microsoft/SimMIM) |
 | Swin-L  | UM-MAE       | UM | 25% | 25%  | 800 | todo | 85.3  | weight |
 
