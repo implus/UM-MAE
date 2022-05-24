@@ -14,7 +14,7 @@
 > **ImageNet Pretrain**: See [PRETRAIN.md](PRETRAIN.md).\
 > **ImageNet Finetune**: See [FINETUNE.md](FINETUNE.md).\
 > **Object Detection**: See [DETECTION.md](DET/DETECTION.md).\
-> **Semantic Segmentation**: TODO. See [SEGMENTATION.md](SEG/SEGMENTATION.md). \
+> **Semantic Segmentation**: See [SEGMENTATION.md](SEG/SEGMENTATION.md). \
 > **Visualization**: TODO.
 
 ```
