@@ -213,6 +213,6 @@ def simmim_swin_tiny_256(**kwargs):
     model = SimMIMSwin(
         img_size=256, patch_size=4, in_chans=3, stride=16,
         embed_dim=96, depths=[2, 2, 6, 2], num_heads=[3, 6, 12, 24],
-        mlp_ratio=4, window_size=16,
+        mlp_ratio=4, window_size=8,
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     return model
