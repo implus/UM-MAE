@@ -21,7 +21,7 @@ Please modify your data_path /path/to/ImageNet/ and possibly the dataloader.
 | Models  | Pre-train Method| Sampling Strategy | Secondary Mask Ratio | Encoder Ratio | Finetune Epochs | Finetune Command |
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
 | ViT-B   | MAE          | RS | --  | 25%  | 100 | ```make finetune_mae_vit_base_patch16_dec512d2b_200e_100e```|
-| ViT-B   | UM-MAE (ours)| UM | 25% | 25%  | 100 | ```make finetune_mae_vit_base_patch16_dec512d2b_mask_vmr025_200e_100e```| 
+| ViT-B   | MAE          | UM | 25% | 25%  | 100 | ```make finetune_mae_vit_base_patch16_dec512d2b_mask_vmr025_200e_100e```| 
 | PVT-S   | SimMIM       | RS | --  | 100% | 100 | ```make finetune_simmim_pvt_small_256_200e_100e```| 
 | PVT-S   | UM-MAE (ours)| UM | 25% | 25%  | 100 | ```make finetune_mae_pvt_small_256_mask_vmr025_200e_100e```| 
 | Swin-T  | SimMIM       | RS | --  | 100% | 100 | ```make finetune_simmim_swin_tiny_256_200e_100e```| 

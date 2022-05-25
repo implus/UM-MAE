@@ -27,7 +27,7 @@ You can also move the txt files **IN1K/train.txt** and **IN1K/val.txt** to your 
 | Models  | Pre-train Method| Sampling Strategy | Secondary Mask Ratio | Encoder Ratio | Pretrain Epochs | Pretrain Command |
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: |
 | ViT-B   | MAE          | RS | --  | 25%  | 200 | ```make pretrain_mae_vit_base_patch16_dec512d2b_224_200e```|
-| ViT-B   | UM-MAE (ours)| UM | 25% | 25%  | 200 | ```make pretrain_mae_vit_base_patch16_dec512d2b_224_mask_vmr025_200e```| 
+| ViT-B   | MAE          | UM | 25% | 25%  | 200 | ```make pretrain_mae_vit_base_patch16_dec512d2b_224_mask_vmr025_200e```| 
 | PVT-S   | SimMIM       | RS | --  | 100% | 200 | ```make pretrain_simmim_pvt_small_256_200e``` | 
 | PVT-S   | UM-MAE (ours)| UM | 25% | 25%  | 200 | ```make pretrain_mae_pvt_small_256_mask_vmr025_200e```| 
 | Swin-T  | SimMIM       | RS | --  | 100% | 200 | ```make pretrain_simmim_swin_tiny_256_200e```| 
