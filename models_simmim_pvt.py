@@ -212,7 +212,7 @@ def simmim_pvt_small_256(**kwargs):
     model = SimMIMPVT(
         img_size=256, patch_size=4, in_chans=3, stride=16,
         embed_dims=[64, 128, 320, 512], depths=[3, 4, 6, 3], num_heads=[1, 2, 5, 8],
-        mlp_ratios=[8, 8, 4, 4], sr_ratios=[4, 2, 1, 1], # [8, 4, 2, 1] for finetune
+        mlp_ratios=[8, 8, 4, 4], sr_ratios=[8, 4, 2, 1], # [8, 4, 2, 1] for finetune
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     return model
 
