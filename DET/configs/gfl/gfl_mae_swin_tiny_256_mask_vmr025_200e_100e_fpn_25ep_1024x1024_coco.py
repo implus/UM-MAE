@@ -9,7 +9,7 @@ model = dict(
     backbone=dict(type='SwinDet',
                   img_size=size,
                   drop_path_rate=0.1,
-                  pretrained='../work_dirs/finetune_mae_pvt_small_256_mask_vmr025_200e_100e/checkpoint-99.pth'),
+                  pretrained='../work_dirs/finetune_mae_swin_tiny_256_mask_vmr025_200e_100e/checkpoint-99.pth'),
     neck=dict(
         type='FPN',
         in_channels=[768, 768, 768, 768],
