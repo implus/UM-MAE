@@ -15,7 +15,7 @@
 > **ImageNet Finetune**: See [FINETUNE.md](FINETUNE.md).\
 > **Object Detection**: See [DETECTION.md](DET/DETECTION.md).\
 > **Semantic Segmentation**: See [SEGMENTATION.md](SEG/SEGMENTATION.md). \
-> **Visualization**: TODO.
+> **Visualization**: See [Colab notebook](https://colab.research.google.com/github/implus/UM-MAE/blob/main/visual/ummae_visualize.ipynb).
 
 ```
 @article{Li2022ummae,
@@ -27,6 +27,8 @@
 ```
 
 ## Updates
+
+***30/May/2022:***  Visualization code/demo is updated at [Colab notebook](https://colab.research.google.com/github/implus/UM-MAE/blob/main/visual/ummae_visualize.ipynb).
 
 ***26/May/2022:***  The Chinese blog of this paper is available at [zhihu](https://zhuanlan.zhihu.com/p/520228061).
 
